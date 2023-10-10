@@ -1,0 +1,83 @@
+body {
+    background-color: #303030;
+}
+
+hr {
+    color: black;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+input {
+    width: 100%;
+    max-width: 200px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.login {
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(100, 100, 100, 0.6);
+    border: solid 1px;
+    border-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    color: whitesmoke;
+}
+
+.img{
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%)  scale(1);
+    position: absolute;
+}
+
+.c {
+    align-items: center;
+    text-align: center;
+}
+
+.white {
+    color: whitesmoke;
+}
+
+.button:disabled {
+    border:none;
+    background-color:rgba(90, 90, 90, 0.4);
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    cursor: auto;
+}
+
+.button{
+    border:none;
+    background-color:rgba(200, 50, 50, 0.4);
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.buttonFim{
+    border:none;
+    background-color:rgba(200, 50, 50, 0.4);
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+    font-size: larger;
+}

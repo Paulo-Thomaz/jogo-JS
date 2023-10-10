@@ -1,0 +1,30 @@
+-Obijetivo inicial.
+
+    fazer um jogo da memoria com o tema de sintese de proteina que tenha três telas.
+    
+    -tela inicial deve ter uma tela inicial onde se tem um texto sobre o jogp um botão e um input.
+    
+        .input - deve receber o nome do jogador e armazenalo no localhost e deve habilitar e desabilitar o botão.
+        .botão - deve direcionar o usuario para a pagina do jogo.
+
+    -tela do jogo deve ter 10 cartas geradas pelo js nome do jogador quantas jogadas e redirecionmen automatico para a pagina fim.
+
+        .cartas - deve ter um tamanho 3/4 efeito de virar a carta e quando acertar o par a carta deve ficar sem saturação e umpouco transparente.
+        .nome do jogador - o nome do Jogador deve se esibido na parte superior da tela utilizando o localhost para reculperar a informação da pagina inicial.
+        .jogadas - deve ficar na parte superior da tela e ser atualizadas todas as vezes que uma carta for selecionada e no final a quantidade de jogadas devem ser armazenadas no localhost.
+
+    tela do final deve ter um texto que mostre o nome do jogador e a quantidade de jogadas alem de dois botões um para tentar novamente e outro para retornar a pagina inicial.
+
+        .nome e jogadas - devem ser recuperados do localhost e exibidos em um texto.
+        .botões devem servir para redirecionar para a paginas de inicio e a para jogar novamente.
+
+-Problemas
+
+    como verificar se duas cartas de nome diferente ção correspondentes (usando ids)
+
+-Duvidas
+
+    como utilizar um elemento.classList.remove('class') em uma teg null e se não for possivel como fazer para remover esta classe.
+
+
+'&copy; © 2023 Seu Paulo Thomaz Filho. Todos os direitos reservados.'
